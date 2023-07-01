@@ -13,7 +13,7 @@ inputBtn.onclick = () => {
 function display() {
     let res = ""
     for (let i = 0; i < myLeads.length; i++) {
-        res += ` <li>${myLeads[i]}</li>`
+        res += ` <li><a target='_blank' href=${myLeads[i]}>${myLeads[i]}</a></li>`
     }
     ulEL.innerHTML = res
     inputEL.value=" "
